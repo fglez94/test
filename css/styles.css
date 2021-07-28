@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  padding: 10px;
+  font-size: 0.8em;
+
+}
+
+.wrapper {
+  padding: 5px;
+  display: grid;
+  grid:  "header header header"
+         "aside1 center aside2"
+         ".      main .     "
+         "footer footer footer";
+  grid-template-columns:200px auto 200px;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 1em;
+}
+
+.nowrp {
+  grid-area: main;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/*just for visual identifying purposes i format the whole elements*/
+
+h1 {
+  background: #ccffb3;
+  display: inline;
+}
+
+p {
+  background: #ffff00;
+}
+
+.h1head {
+  font-size: 1rem;
+}
+
+canvas {
+  border: 1px solid black;
+  padding: 20px;
+
+}
+
+header {
+  background: #74beab;
+  text-align: center;
+  position: relative;
+  grid-area: header;
+}
+
+nav {
+  background: #9090bb;
+}
+
+ul {
+  background: #99ffe6;
+  padding:0px;
+  list-style-type:none;
+
+}
+
+li {
+  background: #66ffff;
+  padding: 0px;
+
+}
+
+section {
+  background: #d9d9d9;
+  grid-area:center;
+  display:;
+
+}
+
+.lorem{
+
+}
+
+.agua{
+align-self:;
+display:block;
+  justify-content:flex-start;
+}
+
+article {
+  background: #ff8080;
+
+}
+
+.ad {
+  background:white;
+  width:200px;
+}
+
+.adone{
+  color:blue;
+  position:relative;
+  width:200px;
+  height:300px;
+  top:30px;
+  align-items:center;
+  box-sizing:border-box;
+}
+
+aside.a {
+  background: #4dffdb;
+  text-align: center;
+  grid-area: aside1;
+  justify-content: center;
+
+}
+
+aside.a < p {
+  top:30px;
+}
+
+aside.b {
+  background: #4dffdb;
+  text-align: center;
+  grid-area:aside2;
+  justify-content: center;
+
+
+}
+
+.footer {
+  background: #497fd0;
+  text-align: center;
+  grid-area:footer;
+}
+
+footer > article {
+  background: #5dd55d;
+
+}
+
+
+* {
+  border: 1px solid black;
+}
