@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
 <div class="wrapper">
 
   <header>
@@ -104,3 +110,5 @@ Dignissim quam proin rutrum cursus quisque fringilla, sem ligula aliquet commodo
       </article>
     </footer>
 </div>
+</body>
+</html>
