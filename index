@@ -1,0 +1,106 @@
+<div class="wrapper">
+
+  <header>
+    <h1>My First Heading<br><span class="h1head">(H1 tags are inline elements for visualizing purposes)</span></h1>
+    <nav>
+      <h2>MENU</h2>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </nav>
+  </header>
+<div>
+  <section class="lorem">
+    <h1>Lorem Ipsum:<i> Section 1</i></h1>
+    <article>
+      <h1>What is Lorem Ipsum?</h1>
+      <p>Content of article 1.<br><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </article>
+    <article>
+      <h1>Where does it come from?</h1>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+    </article>
+    <article>
+      <h1>Why do we use it?</h1>
+      <p>ContIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </article>
+  </section>
+
+  <section class="agua">
+    <h1>Cómo hacer Agua de sábila:<i> Section 2</i></h1>
+    <article>
+      <h1>1</h1>
+      <p>Con el fin de comenzar a procesar la hoja de la sábila, lávala muy bien en agua potable. Elimina todas las impurezas y suciedades. Es importante que te asegures de que se trata de la variedad aloe vera, pues algunas variedades de aloe son tóxicas para el consumo humano.</p>
+    </article>
+    <article>
+      <h1>2</h1>
+      <p>Una vez que esté limpia, debes eliminar toda la aloína posible de la hoja. La aloína es una sustancia muy tóxica que le da el color amarillento y el olor característico al látex de la sábila. Para esto, corta la parte de abajo, luego la punta y, al final, retira también los laterales con las espinas. Haz todo esto con un cuchillo muy bien afilado.</p>
+    </article>
+    <article>
+      <h1>3</h1>
+      <p>Introduce la hoja en una jarra o envase con agua potable y déjala reposar por 24 horas.</p>
+    </article>
+  </section>
+  </div>
+  <aside class="a">
+      <h1>sidebar 1</h1>
+      <div class="adone ad">I am an ad here</div>
+      
+  </aside>
+  <aside class="b">
+    <h1>sidebar 2</h1>
+    <p>content of sidebar 2.<br>Sidebar can be placed to right. </p>
+  </aside>
+
+<div class="nowrp">
+    <p>This is a <strong>p</strong> element out of <strong>section</strong> or <strong>article</strong> tags. You may want wrap this into <strong>div</strong> tag.</p><button class="btn">I'm a button displayed inline by default.</button><audio controls>
+      <source src="horse.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio><canvas id="myCanvas" width="200" height="100">
+      <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 100);
+      </script>canvas aqui.
+    </canvas><code>code tag</code>
+    <table>
+      <colgroup>
+        <col span="2" style="background-color:red">
+        <col style="background-color:yellow">
+      </colgroup>
+      <tr>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+      </tr>
+      <tr>
+        <td>5869207</td>
+        <td>My first CSS</td>
+        <td>$49</td>
+      </tr>
+    </table>
+  <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit elementum ligula etiam venenatis imperdiet, potenti fermentum eleifend turpis neque. Etiam netus cubilia fames senectus metus nam laoreet ligula, volutpat habitasse augue taciti habitant consequat facilisi, accumsan ac iaculis convallis quis sem libero. Quisque pellentesque fames ultricies inceptos himenaeos facilisis curae, quis habitasse nulla maecenas vestibulum morbi, malesuada rhoncus eros interdum massa cubilia.
+
+Augue arcu eu porttitor luctus ut tristique litora ac, commodo dui class tortor duis dictum fringilla justo sapien, euismod fusce in massa ante lacinia libero. Himenaeos sodales ullamcorper imperdiet egestas euismod sapien quis sociis, vivamus netus lacinia placerat ad sagittis nulla nisi vitae, consequat scelerisque magna fusce congue neque urna. Rhoncus bibendum consequat lectus ante placerat aenean sed pharetra justo phasellus mauris, ut ad dignissim lacus eleifend orci gravida parturient pulvinar porttitor. Dictumst arcu interdum vivamus nisi aliquet lacinia placerat magna et duis aenean, euismod vestibulum molestie leo taciti sollicitudin platea ultricies nunc etiam.
+
+Dignissim quam proin rutrum cursus quisque fringilla, sem ligula aliquet commodo velit, fames mollis sociis orci vestibulum. Praesent aptent non tortor mattis vitae velit potenti, ante sem sapien aliquet a augue morbi leo, mi pulvinar mus inceptos nisi senectus. A ac hendrerit suspendisse congue mi sem, quam tristique urna libero habitasse, taciti pharetra quisque facilisi fusce. Auctor erat integer leo ullamcorper aliquam fusce fringilla, porttitor curae class sed congue mauris, netus libero nisi euismod cras dignissim.</p>
+  </div>
+
+    <footer class="footer">
+      <article>
+        <h1>Footer 1</h1>
+        <p>Content of article of footer 1<br>This green color #5dd55d is for articles inside a <strong>footer</strong> tag.<br>This is an <strong>article</strong> tag</p>
+      </article>
+      <article>
+        <h1>Footer 2</h1>
+        <p>Content of article of footer 2<br>To </p>
+      </article>
+    </footer>
+</div>
