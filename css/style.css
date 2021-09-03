@@ -1,29 +1,12 @@
-body {
-  margin: 0px;
-  padding: 10px;
-  font-size: 0.8em;
 
-}
 
-.wrapper {
-  padding: 5px;
-  display: grid;
-  grid:  "header header header"
-         "aside1 center aside2"
-         ".      main .     "
-         "footer footer footer";
-  grid-template-columns:200px auto 200px;
-  grid-template-rows: auto auto auto auto;
-  grid-gap: 1em;
-}
+
 
 .nowrp {
   grid-area: main;
   grid-column-start: 1;
   grid-column-end: 4;
 }
-
-/*just for visual identifying purposes i format the whole elements*/
 
 h1 {
   background: #ccffb3;
@@ -34,9 +17,7 @@ p {
   background: #ffff00;
 }
 
-.h1head {
-  font-size: 1rem;
-}
+
 
 canvas {
   border: 1px solid black;
@@ -44,35 +25,12 @@ canvas {
 
 }
 
-header {
-  background: #74beab;
-  text-align: center;
-  position: relative;
-  grid-area: header;
-}
 
-nav {
-  background: #9090bb;
-}
 
-ul {
-  background: #99ffe6;
-  padding:0px;
-  list-style-type:none;
-
-}
-
-li {
-  background: #66ffff;
-  padding: 0px;
-
-}
 
 section {
   background: #d9d9d9;
   grid-area:center;
-  display:;
-
 }
 
 .lorem{
@@ -95,16 +53,6 @@ article {
   width:200px;
 }
 
-.adone{
-  color:blue;
-  position:relative;
-  width:200px;
-  height:300px;
-  top:30px;
-  align-items:center;
-  box-sizing:border-box;
-}
-
 aside.a {
   background: #4dffdb;
   text-align: center;
@@ -113,16 +61,11 @@ aside.a {
 
 }
 
-aside.a < p {
-  top:30px;
-}
-
 aside.b {
   background: #4dffdb;
   text-align: center;
   grid-area:aside2;
   justify-content: center;
-
 
 }
 
@@ -134,10 +77,65 @@ aside.b {
 
 footer > article {
   background: #5dd55d;
-
 }
 
 
-* {
-  border: 1px solid black;
+
+/*theme: midnight_fantasy*/
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: block;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .wrapper {
+    padding: 5px;
+    display: -ms-grid;
+    display: grid;
+    grid: "header header header" "aside1 center aside2" ".      main .     " "footer footer footer";
+    -ms-grid-columns: 200px auto 200px;
+        grid-template-columns: 200px auto 200px;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    grid-gap: 5px;
+  }
+}
+
+.header {
+  background: #74beab;
+  text-align: center;
+  position: relative;
+  grid-area: header;
+}
+
+.main__menu ul {
+  background: #99a3ff;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main__menu li {
+  background: #99ff9e;
+}
+
+.main__menu + span {
+  height: 20px;
+}
+
+body {
+  /*background: #39004d;*/
+  font-size: 1em;
+  padding: 0px;
+  margin: 0em;
+}
+
+.h1head {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0px;
 }
